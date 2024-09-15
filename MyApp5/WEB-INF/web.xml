@@ -1,0 +1,18 @@
+<web-app>
+   <servlet>
+       <servlet-name>xyz</servlet-name>
+       <servlet-class>cfg</servlet-class>
+       <init-param>
+           <param-name>name</param-name>
+           <param-value>Shubham</param-value>
+       </init-param>
+       </servlet>
+   <servlet-mapping>
+       <servlet-name>xyz</servlet-name>
+       <url-pattern>/configcontext</url-pattern>
+   </servlet-mapping>
+   <context-param>
+       <param-name>city</param-name>
+       <param-value>Noida</param-value>
+   </context-param>
+</web-app>
